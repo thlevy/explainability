@@ -12,3 +12,14 @@ It has been tested with the following Python 3 libraries installed:
 * shap                      0.35.0 (or 0.37.0 for text & product classifications)
 
 NOTE: Shap API is changing. You may need to slightly adapt the code if you want to run the notebooks with different SHAP versions!
+
+## To Setup & Run with poetry dependency management (recommended)
+
+* install [poetry](https://python-poetry.org/docs/)
+* run `poetry install`
+
+To run notebooks (with local jupyter server):
+* run `poetry run jupyter notebook`
+
+Or to run (with VS Code):
+* run `poetry shell` and `code .`

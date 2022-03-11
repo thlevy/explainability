@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "explainability"
+version = "0.1.0"
+description = "Various examples on explainability"
+authors = ["Thomas Levy <thom.levy@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+shap = "^0.40.0"
+ipykernel = "^6.9.1"
+matplotlib = "^3.5.1"
+lime = "^0.2.0"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
