@@ -7,13 +7,15 @@ It includes multiple notebooks to demonstrate Machine Learning explainability:
 
 ## Requirements
 It has been tested with the following Python 3 libraries installed:
-* scikit-learn              0.23.2
-* lime                      0.2.0.1 (only for comparison)
-* shap                      0.35.0 (or 0.37.0 for text & product classifications)
+* scikit-learn
+* lime
+* shap
+* [shapash](https://github.com/MAIF/shapash)
 
 NOTE: Shap API is changing. You may need to slightly adapt the code if you want to run the notebooks with different SHAP versions!
+It is recommended to use poetry to manage dependencies in a simple way (see section below)
 
-## To Setup & Run with poetry dependency management (recommended)
+## To setup & run with poetry dependency management (recommended)
 
 * install [poetry](https://python-poetry.org/docs/)
 * run `poetry install`

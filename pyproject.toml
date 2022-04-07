@@ -5,12 +5,15 @@ description = "Various examples on explainability"
 authors = ["Thomas Levy <thom.levy@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "~3.8.10"
 shap = "^0.40.0"
 ipykernel = "^6.9.1"
 matplotlib = "^3.5.1"
 lime = "^0.2.0"
 jupyter = "^1.0.0"
+shapash = "^1.7.1"
+category-encoders = "^2.4.0"
+werkzeug = "2.0.0" #To handle a bug from dash dependencies
 
 [tool.poetry.dev-dependencies]
 

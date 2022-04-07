@@ -1,0 +1,5 @@
+#VS code files
+.vscode
+
+#Lock
+*.lock
