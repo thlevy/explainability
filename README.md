@@ -1,7 +1,8 @@
 # Notebooks for POC on ML explainability
 It includes multiple notebooks to demonstrate Machine Learning explainability:
 * Comparison of various explanation methods (in particular LIME & SHAP) for classification with tabular data
-* Explainability with SHAP for classification with numerical and categorical data  
+* Explainability with SHAP for classification with numerical and categorical data
+* Explainability with shapash for classification  
 * Basic explainability of text classifications
 * Basic explainability of product classifications
 
@@ -13,6 +14,7 @@ It has been tested with the following Python 3 libraries installed:
 * [shapash](https://github.com/MAIF/shapash)
 
 NOTE: Shap API is changing. You may need to slightly adapt the code if you want to run the notebooks with different SHAP versions!
+
 It is recommended to use poetry to manage dependencies in a simple way (see section below)
 
 ## To setup & run with poetry dependency management (recommended)
