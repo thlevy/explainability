@@ -3,3 +3,6 @@
 
 #Lock
 *.lock
+
+#Pyenv file
+.python-version
