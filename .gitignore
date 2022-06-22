@@ -1,8 +1,8 @@
 #VS code files
 .vscode
 
-#Lock
-*.lock
-
 #Pyenv file
 .python-version
+
+#Joblib storage
+.joblib
